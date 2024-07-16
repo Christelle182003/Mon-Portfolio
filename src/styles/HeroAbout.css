@@ -1,0 +1,33 @@
+
+.hero-about-container{
+    margin: 50px;
+}
+.about-hero-icon{
+    display: flex;
+    justify-content: end;
+    margin-right: 240px;
+    gap: 20px;
+}
+
+#about-hero-social{
+    margin-top: 27px;
+}
+
+.hero-about-img{
+    background-color: #C7C7C7;
+    height: 700px;
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 20px;
+   
+}
+
+#about-img{
+    height: 645px;
+}
+
+#capabilitie{
+    margin-bottom: 70px;
+}

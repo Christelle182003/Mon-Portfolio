@@ -1,0 +1,26 @@
+
+.capabilities-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 160px;  
+    /* flex-wrap: wrap; */
+}
+
+.capabilities-title{
+    white-space: nowrap;
+}
+
+.language{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.language h5{
+    font-size: 18px;
+    border: 1px solid #c7c7c7;
+    border-radius: 10px;
+    padding: 15px 35px 15px 35px;
+    margin: 0;
+}

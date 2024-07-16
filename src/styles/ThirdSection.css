@@ -1,0 +1,41 @@
+.third-section-container {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    height: auto; /* Utilisation de height auto pour une meilleure adaptation */
+}
+
+#third-section-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrage des éléments */
+}
+
+#third-section-link a {
+    color: #ff0062; 
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#hr-link {
+    width: 133px;
+    border-color: #ff0062;
+    margin: 0 auto; /* Centrage horizontal */
+    align-items: center;
+}
+
+@media (max-width: 440px) {
+    .third-section-container {
+        margin: 20px; /* Réduction des marges pour petits écrans */
+    }
+
+    #third-section-link a {
+        margin-left: 0; /* Annulation de la marge pour petits écrans */
+    }
+
+    #hr-link {
+        margin-left: 0; /* Annulation de la marge pour petits écrans */
+    }
+}

@@ -1,0 +1,28 @@
+
+.experience-contain{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+    gap: 180px;
+}
+
+.experience-title{
+    white-space: nowrap;
+}
+
+.first-experience p{
+    text-align: justify;
+}
+
+#first-experience-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-structure h6{
+    color: #ff0062;
+}
+
+.title-structure{
+    line-height:2px;
+}

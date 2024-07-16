@@ -1,0 +1,13 @@
+
+.image-gallery{
+    background-color: #1A1A1A;
+    width: 500px;
+    height: 490px;
+    align-content: center;
+    padding-left: 65px;
+    border-radius: 20px;
+}
+
+#this-image{
+    width: 440px;
+}

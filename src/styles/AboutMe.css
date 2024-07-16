@@ -1,0 +1,38 @@
+
+.about-me{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 400px;
+}
+
+.about-me-title{
+    width: 100%;
+    height: fit-content;
+    margin: 0;
+    white-space: nowrap;
+}
+
+.about-me h4{
+    width: 500px;
+    font-size: 18px;
+}
+
+@media(max-width:440px){
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .about-me-title h1 {
+        font-size: 24px;
+        text-align: center;  /* Ajustement de la taille du texte pour petits écrans */
+    }
+
+    .about-me-contain h4,
+    .about-me-contain p {
+        width: 100%;
+        margin: 0 10px; /* Marges internes pour un meilleur padding sur petits écrans */
+        text-align: center;
+    }
+}

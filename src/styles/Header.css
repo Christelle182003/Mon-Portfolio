@@ -1,0 +1,25 @@
+
+.header{
+    color: #C7C7C7;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+    height: 48px;
+    align-items: center;
+}
+
+.menu-list{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    color: #C7C7C7;
+
+}
+
+.menu-items a{
+    color: #C7C7C7;
+}
+
+@media (max-width: 440px){
+   
+}

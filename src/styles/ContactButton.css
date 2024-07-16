@@ -1,0 +1,14 @@
+#hero-btn{
+    background-color: #ff0062;
+    width: fit-content;
+    height: fit-content;
+    margin-top: 30px;
+    border-radius: 20px;
+    display: flex;
+    padding: 0;
+}
+
+#text-button{
+    padding: 10px;
+    
+}

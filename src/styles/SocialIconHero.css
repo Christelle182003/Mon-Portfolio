@@ -1,0 +1,34 @@
+.hero-icon-container{
+    display: flex;
+    gap: 10px;
+}
+
+#linkedIn{
+    width: 26px;
+    height: 26px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.In{
+    background-color: #222222;
+    Width: 45px;
+    Height: 45px;
+    border-radius: 100px;
+    align-content: center;
+}
+
+.Gi{
+    background-color: #222222;
+    Width: 45px;
+    Height: 45px;
+    border-radius: 100px;
+    align-content: center;
+}
+
+#Github{
+    width: 26px;
+    height: 26px;
+    border-radius: 30px;
+    margin: 10px;
+}
