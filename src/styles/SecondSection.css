@@ -1,108 +1,126 @@
+* {
+    overflow-x: hidden;
+}
 
-.second-section-title h1{
+body {
+    width: 100%;
+}
+
+.second-section-title h1 {
     margin: 0;
     white-space: nowrap;
 }
 
-.second-section{
-     margin: 50px;
-       
+.second-section {
+    margin: 50px;
 }
 
-.second-section-title p{
+.second-section-title p {
     margin-top: 4px;
-    width: 500px;
+    width: 100%;
+    flex-wrap: wrap;
 }
 
- .project-items { 
+.project-items {
     display: flex;
     gap: 40px;
     margin-bottom: 30px;
     align-items: center;
 }
 
-.year{
+.year {
     display: flex;
     justify-content: space-between;
     height: 28px;
 }
 
-.text-bottom{
+.text-bottom {
     display: flex;
     gap: 40px;
 }
 
-.live-demo a{
+.live-demo a {
     color: #ff0062;
 }
 
-.live-demo hr{
+.live-demo hr {
     border-color: #ff0062;
 }
 
-.see-one{
+.see-one {
     margin-bottom: 0;
     margin-top: 2.2px;
 }
 
-.see-one a{
+.see-one a {
     color: #ff0062;
 }
 
-.see-one hr{
+.see-one hr {
     border-color: #ff0062;
 }
 
-.project-text{
+.project-text {
     width: 576px;
     height: 300px;
     margin-bottom: 100px;
 }
 
-.project-2-text{
+.project-2-text {
     width: 576px;
     height: 300px;
     margin-bottom: 100px;
 }
 
-@media (max-width:440px){
-    .second-section{
+@media (max-width: 440px) {
+    .second-section {
         display: flex;
         flex-direction: column;
-        margin: 30px; 
+        margin: 30px;
         width: 100%;
         max-width: 100%;
-        overflow-x: 100%;
-        align-content: center;
-   }
+        overflow-x: hidden;
+        /* align-items: center; */
+    }
 
-   .project-items{
-    display: flex;
-    flex-direction: column;
-   }
+    .project-items {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
 
-   .project-text { 
-    width: 100%;
-    height: fit-content;
-    align-items: center;
+    .project-text, .project-2-text {
+        width: 100%;
+        height: fit-content;
+        align-items: center; 
+    }
+
+    .project-1-img {
+        margin: 20px;
+    }
+
+    .second-section-title h1 {
+        font-size: 30px;
+    }
+
+    .second-section-title p {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .text-bottom {
+        display: flex;
+        justify-content: space-between;
+        gap: 0;
+    }
+
+    .project-items .project-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .live-demo a {
+        color: #ff0062;
+        width: fit-content;
+    }
 }
-
-.project-2-text{
-    width: 100%;
-    height: fit-content;
-}
-.project-1-img{
-    margin: 20px;
-}
-
-.second-section-title h1{
-    font-size: 30px;
-}
-
-.second-section-title p{
-    width: 100%;
-    font-size: 15px;
-}
-
-}
-

@@ -1,13 +1,12 @@
-*{
+* {
     box-sizing: border-box;
+}
+
+body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    width: 100%;
 }
 
-.home-page{
-    width: 100vw;
-}
-.hr{
-    margin-top: 30px;
-}
+/* Ajoutez d'autres styles globaux ici */
