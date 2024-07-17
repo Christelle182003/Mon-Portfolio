@@ -10,7 +10,7 @@ function ThirdSection() {
       <div>
         <div id="third-section-link">
           <a href="/about">MORE ABOUT ME</a>
-          <hr id="hr-link" />
+          {/* <hr id="hr-link" /> */}
         </div>
       </div>
     </div>

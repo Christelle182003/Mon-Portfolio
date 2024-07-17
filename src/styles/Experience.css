@@ -26,3 +26,24 @@
 .title-structure{
     line-height:2px;
 }
+
+@media(max-width:440px){
+    .experience-contain{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .experience-title{
+        font-size: 13px;
+    }
+
+    #first-experience-title{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .period p{
+        margin: 0;
+    }
+}

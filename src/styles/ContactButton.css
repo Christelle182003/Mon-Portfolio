@@ -12,3 +12,11 @@
     padding: 10px;
     
 }
+
+@media(max-width:440px){
+    #text-button{
+        padding: 5px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+}

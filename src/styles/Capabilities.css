@@ -1,20 +1,40 @@
 
 .capabilities-container{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    /* justify-content: space-between; */
     width: 100%;
-    gap: 160px;  
+    /* gap: 160px;   */
     /* flex-wrap: wrap; */
 }
 
 .capabilities-title{
+    /* white-space: nowrap; */
+    display: flex;
+    justify-content: space-between;
+    gap: 70px;
+}
+
+.capabilities-title h1{
     white-space: nowrap;
+}
+
+.capabilities-title p{
+    margin-top: 25px;
 }
 
 .language{
     display: flex;
+    width: 60%;
     gap: 25px;
     flex-wrap: wrap;
+    margin: 0;
+}
+
+.capabilities-contain{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
 }
 
 .language h5{
@@ -23,4 +43,37 @@
     border-radius: 10px;
     padding: 15px 35px 15px 35px;
     margin: 0;
+}
+
+@media(max-width:440px){
+    .capabilities-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .capabilities-title{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .capabilities-title p{
+        margin-top: 0;
+        text-align: justify;
+    }
+
+    .capabilities-contain{
+        display: flex;
+        justify-content: start;
+        margin: 0;
+    }
+
+    .language{
+        width: 100%;
+    }
+
+    .capabilities-title h1{
+        font-size: 35px;
+    }
+
 }

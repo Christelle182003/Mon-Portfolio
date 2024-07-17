@@ -1,11 +1,12 @@
 
 .second-section-title h1{
     margin: 0;
+    white-space: nowrap;
 }
 
 .second-section{
      margin: 50px;
-    
+       
 }
 
 .second-section-title p{
@@ -13,28 +14,12 @@
     width: 500px;
 }
 
- .project-1 { 
+ .project-items { 
     display: flex;
     gap: 40px;
     margin-bottom: 30px;
     align-items: center;
 }
-
-.project-2 { 
-    display: flex;
-    gap: 40px;
-    margin-bottom: 30px;
-    align-items: center;
-
-}
-
-.project-3 { 
-    display: flex;
-    gap: 40px;
-    margin-bottom: 30px;
-    align-items: center;
-
-} 
 
 .year{
     display: flex;
@@ -84,33 +69,30 @@
     .second-section{
         display: flex;
         flex-direction: column;
-        margin: 50px; 
+        margin: 30px; 
+        width: 100%;
+        max-width: 100%;
+        overflow-x: 100%;
+        align-content: center;
    }
 
-   .project-1 { 
+   .project-items{
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    margin-bottom: 30px;
-    align-items: center;
-}
-.project-2 { 
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-bottom: 30px;
-    align-items: center;
+   }
 
+   .project-text { 
+    width: 100%;
+    height: fit-content;
 }
 
-.project-3 { 
-    display: flex;
-    flex-direction: column;
-    gap: 40px;
-    margin-bottom: 30px;
-    align-items: center;
-
-} 
+.project-2-text{
+    width: 100%;
+    height: fit-content;
+}
+.project-1-img{
+    margin: 20px;
+}
 
 }
 

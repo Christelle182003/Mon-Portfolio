@@ -20,7 +20,7 @@ function SecondSection(){
         <p>Voici quelques-uns des projets sélectionnés qui mettent en valeur ma passion pour le développement front-end.</p>
       </div>
       <div className="projects">
-        <div className="project-1">
+        <div className="project-items">
         <div className='project-1-img'>
           <ProjectsCard images={project1Images} />
         </div>
@@ -55,7 +55,7 @@ function SecondSection(){
             </div>
         </div>
         </div>
-        <div className="project-2">
+        <div className="project-items">
         <div className='project-2-img'>
           <ProjectsCard images={project2Images} />
         </div>
@@ -93,7 +93,7 @@ function SecondSection(){
             </div>
         </div>
         </div>
-        <div className='project-3'>
+        <div className='project-items'>
         <div className='project-3-img'>
           <ProjectsCard images={project3Images} />
         </div>

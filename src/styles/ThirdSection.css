@@ -17,6 +17,7 @@
     align-items: center;
     margin-top: 0;
     margin-bottom: 0;
+    border-bottom: 2px solid #ff0062;
 }
 
 #hr-link {
