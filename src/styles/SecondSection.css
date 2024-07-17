@@ -84,6 +84,7 @@
    .project-text { 
     width: 100%;
     height: fit-content;
+    align-items: center;
 }
 
 .project-2-text{
@@ -92,6 +93,15 @@
 }
 .project-1-img{
     margin: 20px;
+}
+
+.second-section-title h1{
+    font-size: 30px;
+}
+
+.second-section-title p{
+    width: 100%;
+    font-size: 15px;
 }
 
 }

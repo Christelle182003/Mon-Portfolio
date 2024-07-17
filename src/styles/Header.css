@@ -16,10 +16,32 @@
 
 }
 
+#hbg{
+    display:none;
+}
+
 .menu-items a{
     color: #C7C7C7;
 }
 
 @media (max-width: 440px){
+
+    #hbg{
+        display: block;
+    }
+
+    .menu{
+        display: none;
+        position: absolute;
+        right: 0;
+        padding: 0 2rem;
+        top: 75px;
+        background-image: white;
+        transition: all 0.25s;
+    }
+
+    .menu .menu-list{
+        flex-direction: column;
+    }
    
 }
