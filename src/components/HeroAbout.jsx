@@ -17,7 +17,7 @@ function HeroAbout() {
           <SocialIconHero />
         </div>
       </div>
-      <div className="hero-about-img">
+      <div id="hero-about-img">
         <img id="about-img" src={HeroAboutImg} />
       </div>
       <div id="capabilitie">

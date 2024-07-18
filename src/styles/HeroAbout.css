@@ -13,7 +13,7 @@
     margin-top: 27px;
 }
 
-.hero-about-img{
+#hero-about-img{
     background-color: #C7C7C7;
     height: 700px;
     margin: 80px 0;
@@ -33,21 +33,24 @@
 }
 
 @media(max-width:440px){
-    .about-hero-icon{
+    .about-hero-icon {
         margin-right: 0;
     }
 
-    .hero-about-img{
-        height: 630px;
-        padding-bottom: 0;
-
-        
-    }
-
-    #about-img{
-        height: 645px;
+    #hero-about-img{
+        background-color: #C7C7C7;
         width: 100%;
-    margin-bottom: 0;
-
+        height: 500px;
+        margin: 80px 0;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        border-radius: 20px;
+       
+    }
+    
+    #about-img{
+        width: 450px;
+        height: 500px;
     }
 }

@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className="footer">
       <div className="footer-top">
-      <div className="footer-left">
+      <div id="footer-left">
         <h1>LET'S CONNECT</h1>
         <p>Say hello at <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vigninouavodaho@gmail.com" target="_blank" id="email">vigninouavodaho@gmail.com</a>for more info, here's my resume</p>
         <div className="social-media">
