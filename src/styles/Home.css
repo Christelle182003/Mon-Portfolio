@@ -2,11 +2,11 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 .home-page{
-    width: 100vw;
+    /* width: 100vw; */
 }
 .hr{
     margin-top: 30px;

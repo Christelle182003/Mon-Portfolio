@@ -1,5 +1,5 @@
 * {
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 body {
@@ -23,9 +23,11 @@ body {
 
 .project-items {
     display: flex;
-    gap: 40px;
+    gap: 8%;
+    margin-top: 20px;
     margin-bottom: 30px;
     align-items: center;
+    
 }
 
 .year {
@@ -63,13 +65,13 @@ body {
 .project-text {
     width: 576px;
     height: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 5px;
 }
 
 .project-2-text {
     width: 576px;
     height: 300px;
-    margin-bottom: 100px;
+    margin-bottom: 5px;
 }
 
 @media (max-width: 440px) {
