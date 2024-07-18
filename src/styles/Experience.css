@@ -46,4 +46,8 @@
     .period p{
         margin: 0;
     }
+
+    .title-structure{
+        line-height:18px;
+    }
 }
